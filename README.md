@@ -1,1 +1,1 @@
-# This is the readme for product-cards
+# This is the readme for product-card
