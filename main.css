@@ -1,0 +1,28 @@
+.card-container {
+  display: flex;
+  flex-flow:row wrap;
+  box-shadow: 10px 20px maroon;
+  
+}
+.card {
+  margin: 10px;
+  border: solid lightblue 1px;
+  padding: 5px;
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+  background-color: darkgrey;
+  color:yellow;
+}
+
+.specs {
+  font-weight: bold;
+  border:lightblue;
+}
+
+.card img {
+  height: 200px;
+  width: 300px
+}
