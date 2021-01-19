@@ -5,7 +5,15 @@
   height: 500px;
 
 }
+
+.card-container {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 500px;
+
 .card {
+ 
   display: block;
   box-shadow: 10px 10px maroon;
   border: solid lightblue 1px;
