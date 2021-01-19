@@ -1,21 +1,26 @@
 .card-container {
+  background: #E64A19;;
   display:flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  height: 500px;
+  height: 750px;
 
 }
 
-.card-container {
-  display:flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  height: 500px;
+.dark-primary-color    { background: #E64A19; }
+.default-primary-color { background: #FF5722; }
+.light-primary-color   { background: #FFCCBC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #00BCD4; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
 
 .card {
- 
+  background: #00BCD4;
+  margin: 20px;
   display: block;
-  box-shadow: 10px 10px maroon;
+  box-shadow: 10px 10px #BDBDBD;
   border: solid lightblue 1px;
   padding: 5px;
   text-align: center;
@@ -31,16 +36,35 @@ p1 {
 
 .specs {
   font-weight: bold;
-  border:lightblue;
+  margin: 5px;
   
 }
 
 .card img {
+  justify-content: center;
   height: 200px;
   width: 200px
 
 }
 
+h1 {
+display: block;
+text-align: center;
+padding-bottom: 50px;
+}
+
 h2 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: block;
+  height: 30px;
+  background-color: #757575;
+  color:  #FFFFFF;
+  text-decoration-color ;
   text-align: center;
+  border: solid lightblue 1px;
+  
+}
+
+.pricing {
+  font-weight: bold;
 }
