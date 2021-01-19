@@ -1,13 +1,20 @@
+body {
+  background-color:lightseagreen;
+  margin-top: 75px;
+}
+
 .card-container {
   background: #E64A19;;
   display:flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  height: 750px;
+  padding: 20px;
+  margin: 20px;
+
 
 }
 
-.dark-primary-color    { background: #E64A19; }
+/* .dark-primary-color    { background: #E64A19; }
 .default-primary-color { background: #FF5722; }
 .light-primary-color   { background: #FFCCBC; }
 .text-primary-color    { color: #FFFFFF; }
@@ -15,15 +22,17 @@
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
-
+ */
+ 
 .card {
   background: #00BCD4;
   margin: 20px;
   display: block;
-  box-shadow: 10px 10px #BDBDBD;
+  box-shadow: 15px 15px #BDBDBD;
   border: solid lightblue 1px;
   padding: 5px;
-  text-align: center;
+  text-align: justify;
+  width: 350px;
   
 }
 
@@ -37,6 +46,7 @@ p1 {
 .specs {
   font-weight: bold;
   margin: 5px;
+  padding: 5px;
   
 }
 
@@ -47,10 +57,15 @@ p1 {
 
 }
 
+
 h1 {
+font-family: 'Courgette', cursive;
+font-size: 50px;
 display: block;
 text-align: center;
 padding-bottom: 50px;
+
+
 }
 
 h2 {
@@ -66,5 +81,11 @@ h2 {
 }
 
 .pricing {
+  margin-top: 10px;
   font-weight: bold;
+  text-align: justify;
+}
+
+.product-info {
+  text-align: center;
 }
