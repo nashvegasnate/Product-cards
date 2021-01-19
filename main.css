@@ -1,17 +1,21 @@
 .card-container {
-  display: flex;
-  flex-flow:row wrap;
-  box-shadow: 10px 20px maroon;
-  
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  height: 500px;
+
 }
 .card {
-  margin: 10px;
+  display: block;
+  box-shadow: 10px 10px maroon;
   border: solid lightblue 1px;
   padding: 5px;
   text-align: center;
+  
 }
 
-.card p {
+p1 {
+  display: block;
   text-align: center;
   background-color: darkgrey;
   color:yellow;
@@ -20,9 +24,15 @@
 .specs {
   font-weight: bold;
   border:lightblue;
+  
 }
 
 .card img {
   height: 200px;
-  width: 300px
+  width: 200px
+
+}
+
+h2 {
+  text-align: center;
 }
